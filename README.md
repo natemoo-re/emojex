@@ -12,6 +12,16 @@ new RegExp('^.*(?=,)')
 new EmojExp('🏁✨❤️(👉,)')
 ```
 
+## Installation
+
+```bash
+npm install emojex
+```
+
+```js
+const { EmojExp } = require('emojex');
+```
+
 ## Running the Demo
 0️⃣&ensp;👯 Clone me ‍
 
