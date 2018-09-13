@@ -1,0 +1,19 @@
+{
+  "name": "emojex",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc",
+    "start": "npm run demo",
+    "demo": "npm run build && node dist/demo"
+  },
+  "author": "Nate Moore <nate@natemoo.re> (http://projects.natemoo.re/)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.9.4",
+    "emoji-aware": "^3.0.4",
+    "typescript": "^3.0.3"
+  }
+}
