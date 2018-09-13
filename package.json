@@ -11,9 +11,11 @@
   },
   "author": "Nate Moore <nate@natemoo.re> (http://projects.natemoo.re/)",
   "license": "ISC",
+  "dependencies": {
+    "emoji-aware": "^3.0.4"
+  },
   "devDependencies": {
     "@types/node": "^10.9.4",
-    "emoji-aware": "^3.0.4",
     "typescript": "^3.0.3"
   }
 }
